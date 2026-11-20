@@ -1,0 +1,150 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+html ,body{
+    margin:0 ;
+    padding:0 ;
+    width:100%;
+    height:100%;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    overflow-x: hidden;
+      position: relative;
+
+
+}
+.container{
+   width:100%;
+   max-width: 1200px;
+   margin:0 auto;
+   padding:0 20px;
+}
+.bg-bottom{
+    max-width:100%;
+    height:auto;
+    position: absolute;
+    bottom:0px;
+    right:0.5px;
+}
+.header{
+    width:30%;
+position: absolute;
+top:150px;
+left:185px;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+    width:75%;
+    padding-bottom: 20px;
+}
+.h1-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(224, 15%, 55%);
+    width:90%;
+}
+.stars{
+    position: absolute;
+    top:70px;
+    left:230px;
+    width:100%;
+    height:500px;
+    color:hsl(300, 43%, 22%)
+}
+.stars-1{
+    display:flex;
+    gap:10px;
+    background-color:hsl(300, 24%, 96%);
+    padding:10px;
+    padding-right:20px;
+    border-radius:10px;
+    position:absolute;
+    top:100px;
+    left:500px;
+}
+.stars-2{
+    display:flex;
+     gap:10px;
+    position: absolute;
+    top:150px;
+    left:550px;
+    background-color:hsl(300, 24%, 96%);
+    padding:10px;
+    border-radius:10px;
+}
+.stars-3{
+    display:flex;
+    gap:10px;
+    background-color:hsl(300, 24%, 96%);
+    padding:10px;
+    border-radius:10px;
+    position: absolute;
+    top:200px;
+    left:600px;
+}
+.reviews{
+    display:flex;
+    gap:30px;
+        width:100%;
+ margin-top: 100px;          
+}
+
+.colton{
+    width:21.5%;
+    position: absolute;
+    bottom:70px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:hsl(300, 43%, 22%);
+}
+.irene{
+    width:21.5%;
+    position: absolute;
+    left:530px;
+    bottom:60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:hsl(300, 43%, 22%);
+}
+.anne{
+    width:21.5%;
+    position: absolute;
+    left:870px;
+    bottom:50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:hsl(300, 43%, 22%);
+}   
+.name1{
+    width:100%;
+    position: absolute;
+    top:40px;
+    left:100px;
+    color:hsl(300, 24%, 96%);
+}
+.buyer{
+
+    color:hsl(333, 80%, 67%);
+    width:100%;
+    position: absolute;
+    top:60px;
+    left:100px;
+}
+.para{
+    width:100%;
+    padding:20px;
+    padding-left:0px;
+    color:white;
+}
+.img1{
+    margin:10px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+    
